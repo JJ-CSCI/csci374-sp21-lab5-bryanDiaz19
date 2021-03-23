@@ -5,7 +5,10 @@ type Tree =
     | Leaf of int
 
 let rec prod (t:Tree) :int =
-    0
+  let (a,b)
+  match t with 
+  Node (a,b)->a*b
+  
 
 let rec map (f:int->int) (t:Tree) :Tree =
     t
